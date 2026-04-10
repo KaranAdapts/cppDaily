@@ -1,4 +1,8 @@
-#include<iostream>
+/* This is a basic program that does multiplication and Squaring, 
+thinking of implementing a functionality in the future that could
+list "n" number of operations that it can do and what you wanna calculate */
+
+#include<iostream> 
 
 int main(){
 
