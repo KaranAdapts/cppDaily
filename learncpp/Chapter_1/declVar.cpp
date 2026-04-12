@@ -1,6 +1,6 @@
-/* There is no change in the functionality or logic of the program,
+/* There is no change in the functionality or logic of this program,
 however declaring the variable close to its first use helps with 
-understanding and tracking the code knowing where it got used. */
+understanding and tracking the code to know where it got used. */
 
 #include <iostream>
 
