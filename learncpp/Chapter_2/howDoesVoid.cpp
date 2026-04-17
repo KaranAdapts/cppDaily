@@ -5,7 +5,9 @@ so even if we try to store the result in a variable like
 int storeResult = squareNum();
 void returns nothing... so there's no value stored 
 and the compiler would throw an error. 
+
 Uncomment lines 18 and 19 to try it out yourself */
+
 void squareNum(){
 int num{};
 std::cin >> num; 
