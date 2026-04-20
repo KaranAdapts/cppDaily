@@ -16,4 +16,6 @@ void doubleNum(int value){
 
 int main() {
     doubleNum( thisNum()); // initalized doubleNum by the input value of thisNum() itself no need for another variable
+
+    return 0;
 }
