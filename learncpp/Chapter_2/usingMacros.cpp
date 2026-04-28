@@ -1,11 +1,13 @@
 #include<iostream>
 
+// enables player stats output during debug builds
 #define DEV_CHECK_STATS 
 
 float calculateScore(float oldHighScore, float currentScore){
 
     float newHighScore{};
 
+    // if they beat the old high score, the current running score becomes the new high score
     if(currentScore > oldHighScore){
         newHighScore = currentScore;
         std::cout << "NEW HIGH SCORE ACHIEVED: " << newHighScore << '\n';
@@ -18,6 +20,7 @@ float calculateScore(float oldHighScore, float currentScore){
 
 }
 
+// checks the score in case a player's score is unusally higher than it's supposed to 
 bool caughtHacks(float currentHigh) {
     return currentHigh > 999;
 }
@@ -45,6 +48,7 @@ int main() {
 
     #endif
 
+    // in case a player has suspicious game activity, the game flags the player for the senior dev to review
     #ifdef SENIOR_DEV_ACCESS 
 
     if(caughtHacks(currentHigh) == true){
