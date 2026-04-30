@@ -1,0 +1,1 @@
+int massOfAnotherPerson(int massOfObject);
