@@ -1,11 +1,11 @@
 #include<iostream> 
 #include "calculateMass.h"
 
-int massOfAnotherPerson(int massOfObject){
+int massOfAnotherPerson(){
 
-int massOfObject{10};
+    int mass{10};
 
-return massOfObject;
+return mass;
 
 }
 
