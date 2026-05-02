@@ -4,7 +4,8 @@ gonna do some C++ learning from learncpp.com, practice problems and competitive 
 ## Structure
 Organized sequentially by concept. No copy-pasting or speedrunning tutorials—just actual typed code to build muscle memory.
 - `Chapter_1/` - Fundamentals, compilation, iostream basics
-- `Chapter_2/` - Functions, scoping, return values, and initialization forms
+- `Chapter_2/` - Functions, forward declarations, header files, header guards, 
+ODR, multi-file compilation, preprocessor directives, macros, and program design
 
 ## Build Environment
 - **Compiler:** g++ / MinGW
