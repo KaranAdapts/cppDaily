@@ -1,0 +1,27 @@
+﻿2026-05-05 10:23:26.116 DEBUG [11536] [main@19] main() called
+2026-05-05 10:23:26.118 DEBUG [11536] [incFunc@6] incFunc called()
+
+2026-05-05 10:23:26.118 DEBUG [11536] [incFunc@10] Incremented Current Level to 7
+2026-05-05 10:24:02.418 DEBUG [16584] [main@19] main() called
+2026-05-05 10:24:02.418 DEBUG [16584] [incFunc@6] incFunc called()
+
+2026-05-05 10:24:02.419 DEBUG [16584] [incFunc@10] Incremented Current Level to 7
+2026-05-05 10:25:02.441 DEBUG [9492] [main@19] main() called
+2026-05-05 10:25:02.441 DEBUG [9492] [incFunc@6] incFunc called()
+
+2026-05-05 10:25:02.442 DEBUG [9492] [incFunc@10] Incremented Current Level to 7
+2026-05-05 10:26:14.117 DEBUG [12944] [main@20] main() called
+2026-05-05 10:26:14.117 DEBUG [12944] [incFunc@6] incFunc called()
+
+2026-05-05 10:26:14.119 DEBUG [12944] [incFunc@11] Incremented Current Level to 7
+2026-05-05 10:26:32.481 DEBUG [15968] [main@20] main() called
+2026-05-05 10:26:32.482 DEBUG [15968] [incFunc@6] incFunc called()
+
+2026-05-05 10:26:32.483 DEBUG [15968] [incFunc@11] Incremented Current Level to 7
+2026-05-05 10:30:53.727 DEBUG [14676] [main@20] main() called
+2026-05-05 10:30:53.727 DEBUG [14676] [incFunc@6] incFunc called()
+
+2026-05-05 10:30:53.728 DEBUG [14676] [incFunc@11] Incremented Current Level to 7
+2026-05-05 10:31:02.229 DEBUG [12768] [main@20] main() called
+2026-05-05 10:31:02.229 DEBUG [12768] [incFunc@6] incFunc called()
+2026-05-05 10:31:02.230 DEBUG [12768] [incFunc@11] Incremented Current Level to 7
