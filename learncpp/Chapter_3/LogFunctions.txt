@@ -40,3 +40,6 @@
 2026-05-06 20:16:49.521 DEBUG [20788] [main@22] main() called
 2026-05-06 20:17:17.932 DEBUG [20788] [incFunc@8] incFunc called()
 2026-05-06 20:17:17.935 DEBUG [20788] [incFunc@13] Incremented Current Level to 7
+2026-05-07 10:34:23.246 DEBUG [9584] [main@27] main() called
+2026-05-07 10:34:23.248 DEBUG [9584] [incFunc@13] incFunc called()
+2026-05-07 10:34:23.250 DEBUG [9584] [incFunc@18] Incremented Current Level to 7

@@ -1,6 +1,11 @@
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Weffc++"
+#pragma GCC diagnostic ignored "-Wsign-conversion"
+#pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
+#include <plog/Log.h>
+#include <plog/Initializers/RollingFileInitializer.h>
 #include<iostream>
-#include<plog/Log.h>
-#include<plog/Initializers/RollingFileInitializer.h> 
+#pragma GCC diagnostic pop
 
 // to test this code out, you gotta add plog library to your include directory or else it won't work 
 
