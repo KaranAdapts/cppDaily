@@ -1,4 +1,4 @@
-#pragma GCC diagnostic push
+#pragma GCC diagnostic push 
 #pragma GCC diagnostic ignored "-Weffc++"
 #pragma GCC diagnostic ignored "-Wsign-conversion"
 #pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
@@ -6,6 +6,8 @@
 #include <plog/Initializers/RollingFileInitializer.h>
 #include<iostream>
 #pragma GCC diagnostic pop
+
+// ignore the above #pragrma macros, those are solely added for the compiler to ignore errors that's the libraries' fault
 
 // to test this code out, you gotta add plog library to your include directory or else it won't work 
 
