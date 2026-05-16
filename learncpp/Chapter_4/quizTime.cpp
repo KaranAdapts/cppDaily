@@ -9,6 +9,11 @@ int takeInput(){
     return inputVal;
 }
 
+bool isPrime(int userInput){
+
+    return userInput == 2 || userInput ==  3 || userInput ==  5 || userInput == 7;
+}
+
 int main(){
 
     int userInput{takeInput()};
@@ -16,7 +21,7 @@ int main(){
     if (userInput > 9 || userInput < 0) {
         std::cout << "Out of range";
     }
-    else if (userInput == 2 || userInput ==  3 || userInput ==  5 || userInput == 7){
+    else if (isPrime(userInput)){
         std::cout << "The digit is prime";
     }
     else {
