@@ -42,3 +42,8 @@
 
 # tempCodeRunnerFile file, ignore
 *tempCodeRunnerFile.cpp
+
+# Linux binaries (no extension)
+learncpp/Chapter_*/*
+!learncpp/Chapter_*/*.cpp
+!learncpp/Chapter_*/*.h
