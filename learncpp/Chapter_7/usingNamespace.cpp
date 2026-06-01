@@ -5,6 +5,22 @@ void print(){
     std::cout << "there\n"; 
 }
 
+namespace myLib 
+{
+    void doRandomShit(){
+        std::cout << "Arbitrary means Random\n";
+    }
+}
+
+namespace myLib::details // nested namespaces style C++ 17+ 
+{
+    constexpr double version{6.7};
+
+    void printVersion(){
+        std::cout << version << '\n';
+    }
+}
+
 namespace nDoSomething
 {
     void print(){
@@ -20,7 +36,10 @@ namespace nDoSomething
 int main(){
 
     nDoSomething::printHelloThere();
-    std::cout << basic_math::addTwo(6, 12);
+    std::cout << basic_math::addTwo(6, 12) << '\n';
+
+    namespace Details = myLib::details;
+    Details::printVersion();
 
     return 0;
 }
