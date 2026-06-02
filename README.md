@@ -9,6 +9,9 @@ ODR, multi-file compilation, preprocessor directives, macros, and program design
 - `Chapter_3/` - Debugging techniques, std::cerr, VSCode debugger setup, 
 breakpoints, call stack, watch variables, plog library integration, 
 compiler warning flags, defensive programming, code quality principles.
+- `Chapter_4/` - Fundamental data types, integers, floating point numbers, booleans, characters, type conversion, constants, literals, numeral systems, strings, std::string_view
+- `Chapter_5/` - Arithmetic, relational, logical and conditional operators, increment/decrement operators, operator precedence and associativity, comma operator, expressions and evaluation
+- `Chapter_6/` - Bit flags, bit manipulation, bit masks, bitwise operators, binary and hexadecimal representation, std::bitset
 
 ## Build Environment
 - **Compiler:** g++ / MinGW
