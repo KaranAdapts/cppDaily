@@ -47,6 +47,10 @@ void getYourBrainRot(int brainRot){
         std::cout << "Brain Rot Acquired : 404 NOT FOUND! UNLUCKY DUDE!\n";
         break; 
 
+        default:
+        std::cout << "Looks like SoMeOnE doesn't like having fun huh?\n";
+        break;
+
     }
 
 }
