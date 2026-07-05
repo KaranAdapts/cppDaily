@@ -1,7 +1,7 @@
 #include <iostream>
 #include <random>
 
-// ALternative variation to check for randomness quality, check next comment
+// Alternative variation to check for randomness quality, check next comment
 
 int main(){
 
