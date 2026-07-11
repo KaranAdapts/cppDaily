@@ -2,6 +2,11 @@
 #include <limits>
 #include "Random.h"
 
+// this program became longer than I expected it to be, so It's an incomplete program... just take a look at the main logic if you want to
+// I'll be resuming this as a mini-project in my other github repo 
+
+// Visit here: https://github.com/KaranAdapts/mini-projects/blob/main/Hi-Lo_Game/main.cpp
+
 int min; int max; int maxGuesses;
 
 void resetInputState(){
